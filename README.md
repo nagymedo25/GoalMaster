@@ -1,3 +1,7 @@
+# GoalMaster
+
+A goal tracking and achievement application.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -25,7 +25,7 @@ const App = () => {
 
   const handleRegister = () => {
     setIsAuthenticated(true);
-    setHasCompletedOnboarding(false); // Set to false to ensure onboarding flow
+    setHasCompletedOnboarding(false);
   };
 
   const handleOnboardingComplete = () => {
@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <Router>
+      <Router basename="/GoalMaster">
         <Routes>
           {/* Public Routes */}
           <Route
